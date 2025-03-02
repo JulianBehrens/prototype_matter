@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="Channel Strip_menu" Bypassed="0" Gain="1.0"
+           Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0"
+           packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSlider" id="Knob1" value="28.39999961853027"/>
+            <Control type="ScriptButton" id="EQ1" value="0.0"/>
+            <Control type="ScriptButton" id="EQ2" value="0.0"/>
+            <Control type="ScriptButton" id="EQ4" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob6" value="7.639999866485596"/>
+            <Control type="ScriptSlider" id="Knob7" value="-9.359999656677246"/>
+            <Control type="ScriptSlider" id="Knob10" value="8.949999809265137"/>
+          </Content>
+          <UIData Source="Channel Strip_menuUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="CurveEq" ID="Parametriq EQ1" Bypassed="0" NumFilters="3"
+                   Band0="9.660000801086426" Band1="505.2608947753906" Band2="1.0"
+                   Band3="1.0" Band4="4.0" Band5="8.949999809265137" Band6="164.4159240722656"
+                   Band7="0.7400000095367432" Band8="1.0" Band9="4.0" Band10="-2.480000495910645"
+                   Band11="1703.10107421875" Band12="0.3199999928474426" Band13="1.0"
+                   Band14="4.0" FFTEnabled="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="CurveEq" ID="Parametriq EQ2" Bypassed="0" NumFilters="3"
+                   Band0="6.951723098754883" Band1="63.52461242675781" Band2="1.0"
+                   Band3="1.0" Band4="4.0" Band5="-9.359999656677246" Band6="33.25609970092773"
+                   Band7="1.0" Band8="1.0" Band9="1.0" Band10="-11.25517272949219"
+                   Band11="1748.68896484375" Band12="0.7200000286102295" Band13="1.0"
+                   Band14="4.0" FFTEnabled="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="CurveEq" ID="Parametriq EQ3" Bypassed="0" NumFilters="2"
+                   Band0="7.639999866485596" Band1="79.51634216308594" Band2="1.0"
+                   Band3="1.0" Band4="4.0" Band5="5.296550750732422" Band6="4525.9990234375"
+                   Band7="1.0" Band8="1.0" Band9="4.0" FFTEnabled="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="ScriptFX" ID="Compressor test" Bypassed="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <Networks>
+            <Network ID="compressor_test" Version="0.0.0">
+              <Node FactoryPath="container.chain" ID="compressor_test" Bypassed="0">
+                <Nodes/>
+                <Parameters/>
+              </Node>
+            </Network>
+          </Networks>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

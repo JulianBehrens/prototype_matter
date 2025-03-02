@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.1.2">
+  <Content Processor="Interface">
+    <Control type="ScriptSliderPack" id="SliderPack1" value="-1.0" data="64....f+.........3O.........9C........f+......zvL1O0ENQ+rgjl7CaGhvOh.G093VzW5iF3ciOVqNd8."/>
+    <Control type="ScriptSlider" id="trigger speed" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob4b" value="11.0"/>
+    <Control type="ScriptSlider" id="Knob4a" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob3" value="64.0"/>
+    <Control type="ScriptSlider" id="Knob1" value="300.0"/>
+    <Control type="ScriptSlider" id="Knob7a" value="18.0"/>
+    <Control type="ScriptSlider" id="Knob8a" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob6" value="0.6499999761581421"/>
+    <Control type="ScriptSlider" id="Knob5" value="70.0"/>
+    <Control type="ScriptSlider" id="Knob2" value="12.0"/>
+    <Control type="ScriptButton" id="Buttonsync" value="0.0"/>
+    <Control type="ScriptSlider" id="grainsize1" value="57.0"/>
+    <Control type="ScriptButton" id="Buttonsync1" value="1.0"/>
+    <Control type="ScriptSlider" id="main_dial" value="0.9100000262260437"/>
+    <Control type="ScriptSlider" id="Knob9" value="0.4799999892711639"/>
+    <Control type="ScriptSlider" id="Knob7b" value="0.0"/>
+    <Control type="ScriptSlider" id="Knob8b" value="0.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

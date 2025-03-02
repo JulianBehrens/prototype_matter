@@ -1,0 +1,348 @@
+[
+  {
+    "name": "Default",
+    "preset": {
+      "__sps": {
+        "Blur~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 50
+      },
+      "decay": {
+        "value": 50
+      },
+      "diff": {
+        "value": 50
+      },
+      "jitter": {
+        "value": 50
+      },
+      "mix": {
+        "value": 50
+      },
+      "size": {
+        "value": 50
+      }
+    }
+  },
+  {
+    "name": "Large",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 50
+      },
+      "decay": {
+        "value": 50
+      },
+      "diff": {
+        "value": 75
+      },
+      "jitter": {
+        "value": 50
+      },
+      "mix": {
+        "value": 70
+      },
+      "size": {
+        "value": 75
+      }
+    }
+  },
+  {
+    "name": "Small",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {
+          "__sps": {
+            "Delay~": {}
+          }
+        },
+        "RoomB~": {
+          "__sps": {
+            "Delay~": {}
+          }
+        },
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 50
+      },
+      "decay": {
+        "value": 25
+      },
+      "diff": {
+        "value": 25
+      },
+      "jitter": {
+        "value": 50
+      },
+      "mix": {
+        "value": 50
+      },
+      "size": {
+        "value": 25
+      }
+    }
+  },
+  {
+    "name": "Bright",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 0
+      },
+      "decay": {
+        "value": 50
+      },
+      "diff": {
+        "value": 50
+      },
+      "jitter": {
+        "value": 50
+      },
+      "mix": {
+        "value": 50
+      },
+      "size": {
+        "value": 50
+      }
+    }
+  },
+  {
+    "name": "Dark",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 85
+      },
+      "decay": {
+        "value": 60
+      },
+      "diff": {
+        "value": 60
+      },
+      "jitter": {
+        "value": 50
+      },
+      "mix": {
+        "value": 70
+      },
+      "size": {
+        "value": 60
+      }
+    }
+  },
+  {
+    "name": "Huge",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 50
+      },
+      "decay": {
+        "value": 100
+      },
+      "diff": {
+        "value": 100
+      },
+      "jitter": {
+        "value": 50
+      },
+      "mix": {
+        "value": 25
+      },
+      "size": {
+        "value": 100
+      }
+    }
+  },
+  {
+    "name": "Wow",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 50
+      },
+      "decay": {
+        "value": 50
+      },
+      "diff": {
+        "value": 70
+      },
+      "jitter": {
+        "value": 100
+      },
+      "mix": {
+        "value": 70
+      },
+      "size": {
+        "value": 70
+      }
+    }
+  },
+  {
+    "name": "Flat",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 50
+      },
+      "decay": {
+        "value": 50
+      },
+      "diff": {
+        "value": 70
+      },
+      "jitter": {
+        "value": 0
+      },
+      "mix": {
+        "value": 70
+      },
+      "size": {
+        "value": 70
+      }
+    }
+  },
+  {
+    "name": "Metal",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {
+          "__sps": {
+            "Delay~": {}
+          }
+        },
+        "RoomB~": {
+          "__sps": {
+            "Delay~": {}
+          }
+        },
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 0
+      },
+      "decay": {
+        "value": 100
+      },
+      "diff": {
+        "value": 100
+      },
+      "jitter": {
+        "value": 0
+      },
+      "mix": {
+        "value": 25
+      },
+      "size": {
+        "value": 0
+      }
+    }
+  },
+  {
+    "name": "Boing",
+    "preset": {
+      "__sps": {
+        "Allpass~": {},
+        "CombL~": {},
+        "CombR~": {},
+        "Damp~": {},
+        "Mix~": {},
+        "RoomA~": {},
+        "RoomB~": {},
+        "Shuffle~": {}
+      },
+      "damp": {
+        "value": 0
+      },
+      "decay": {
+        "value": 100
+      },
+      "diff": {
+        "value": 100
+      },
+      "jitter": {
+        "value": 75
+      },
+      "mix": {
+        "value": 25
+      },
+      "size": {
+        "value": 0
+      }
+    }
+  }
+]

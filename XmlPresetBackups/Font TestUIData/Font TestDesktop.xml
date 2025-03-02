@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptLabel" id="Label1" x="129.0" y="179.0" text="100%"
+             fontName="font_regular" fontStyle="Bold"/>
+  <Component type="ScriptLabel" id="Label2" x="129.0" y="210.0" text="100%"
+             fontName="font_bold" fontStyle="Bold"/>
+</ContentProperties>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="background" x="0.0" y="0.0" width="770.0"
+             height="600.0" fileName="{PROJECT_FOLDER}background.png"/>
+  <Component type="ScriptSliderPack" id="SliderPack3" x="10.0" y="350.0" sliderAmount="2.0"
+             SliderPackIndex="2" processorId="Mod FX" width="750.0" height="110.0"
+             itemColour="352321535" itemColour2="16777215" textColour="16777215"/>
+  <Component type="ScriptSliderPack" id="SliderPack2" x="28.0" y="535.0" width="716.0"
+             height="37.0" processorId="Mod FX" bgColour="16777215" itemColour="16777215"
+             itemColour2="16777215" textColour="16777215" stepSize="0.1000000014901161"
+             showValueOverlay="0" SliderPackIndex="1"/>
+  <Component type="ScriptSliderPack" id="SliderPack1" x="28.0" y="495.0" width="716.0"
+             height="37.0" processorId="Mod FX" bgColour="16777215" itemColour="16777215"
+             itemColour2="16777215" textColour="16777215" stepSize="0.1000000014901161"
+             showValueOverlay="0"/>
+  <Component type="ScriptSlider" id="Knob1" x="270.0" y="90.0" processorId="Mod FX"
+             parameterId="Tempo" stepSize="0.0" numStrips="151.0" width="250.0"
+             height="250.0" filmstripImage="{PROJECT_FOLDER}bubble.png" scaleFactor="0.5">
+    <Component type="ScriptSlider" id="Knob2" x="0.0" y="0.0" processorId="Mod FX"
+               parameterId="Tempo" stepSize="0.0" numStrips="151.0" width="250.0"
+               height="250.0" filmstripImage="{PROJECT_FOLDER}overlay2.png"
+               scaleFactor="0.5" parentComponent="Knob1"/>
+  </Component>
+  <Component type="ScriptSlider" id="trigger speed" x="330.0" y="390.0" isMetaParameter="1"
+             processorId="Mod FX" parameterId="Mod Speed" mode="TempoSync"
+             max="18.0" stepSize="1.0" middlePosition="9.0"/>
+  <Component type="ScriptSlider" id="divisions" x="50.0" y="240.0" processorId="Mod FX"
+             parameterId="sync Grain Speed" mode="TempoSync" max="18.0" stepSize="1.0"
+             middlePosition="9.0"/>
+  <Component type="ScriptSlider" id="free" x="50.0" y="180.0" processorId="Mod FX"
+             parameterId="free Grain Speed" mode="Time" max="500.0" stepSize="1.0"
+             suffix=" ms" middlePosition="250.0"/>
+  <Component type="ScriptSlider" id="grain size" x="50.0" y="60.0" processorId="Mod FX"
+             parameterId="Grain Size"/>
+  <Component type="ScriptSlider" id="grain size2" x="600.0" y="170.0" processorId="Mod FX"
+             parameterId="Engine 2 Grain Size" text="grain size" max="500.0"
+             mode="Time" suffix="ms" middlePosition="255.0" stepSize="1.0"
+             min="10.0"/>
+  <Component type="ScriptSlider" id="repeats" x="600.0" y="230.0" processorId="Mod FX"
+             parameterId="Engine 2 Grain Speed" max="500.0" mode="Time" suffix="ms"
+             stepSize="1.0"/>
+  <Component type="ScriptSlider" id="Knob10" x="600.0" y="110.0" processorId="Mod FX"
+             parameterId="Engine 2 Pitch" text="pitch" max="12.0" min="-12.0"
+             stepSize="1.0" middlePosition="0.0" suffix="st"/>
+  <Component type="ScriptSlider" id="engine 2" x="600.0" y="50.0" isMetaParameter="1"
+             processorId="Mod FX" parameterId="Engine 2 DryWet"/>
+  <Component type="ScriptSlider" id="pitch" x="50.0" y="120.0" processorId="Mod FX"
+             parameterId="Pitch" max="12.0" min="-12.0" stepSize="1.0" middlePosition="0.0"
+             suffix="st"/>
+  <Component type="ScriptSlider" id="smear" x="600.0" y="290.0" processorId="Mod FX"
+             parameterId="Smear" suffix="%" middlePosition="50.0" max="100.0"
+             stepSize="1.0"/>
+  <Component type="ScriptButton" id="beatsync" x="50.0" y="310.0" processorId="Mod FX"
+             parameterId="Sync on off"/>
+</ContentProperties>

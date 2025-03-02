@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" width="380.0"
+             height="540.0" fileName="{PROJECT_FOLDER}background_main.png">
+    <Component type="ScriptSlider" id="Knob2" x="10.0" y="356.0" parentComponent="Image1"
+               processorId="OTT" parameterId="DryWetUpwards" width="14.0" height="173.0"
+               style="Vertical" itemColour2="1118481" textColour="4278190080"
+               itemColour="4278190080" bgColour="486539264" showTextBox="0"/>
+  </Component>
+  <Component type="ScriptSlider" id="Knob3" x="20.0" y="150.0" filmstripImage="{PROJECT_FOLDER}comp_meter.png"
+             numStrips="101.0" width="50.0" height="111.0" isVertical="0"
+             scaleFactor="0.5" middlePosition="0.5" defaultValue="1.0" processorId="OTT"
+             parameterId="CompL"/>
+  <Component type="ScriptSlider" id="Knob8" x="67.0" y="150.0" filmstripImage="{PROJECT_FOLDER}comp_meter.png"
+             numStrips="101.0" width="50.0" height="110.0" isVertical="0"
+             scaleFactor="0.5" processorId="OTT" parameterId="CompM" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="Knob9" x="115.0" y="150.0" filmstripImage="{PROJECT_FOLDER}comp_meter.png"
+             numStrips="101.0" width="50.0" height="110.0" isVertical="0"
+             scaleFactor="0.5" processorId="OTT" parameterId="CompH" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="Knob6" x="35.0" y="270.0" filmstripImage="{PROJECT_FOLDER}bipolar_knob.png"
+             numStrips="127.0" width="22.0" height="22.0" scaleFactor="0.5"
+             processorId="OTT" parameterId="GainL" min="-12.0" max="12.0"
+             middlePosition="0.0"/>
+  <Component type="ScriptSlider" id="Knob7" x="80.0" y="270.0" filmstripImage="{PROJECT_FOLDER}bipolar_knob.png"
+             numStrips="127.0" width="22.0" height="22.0" scaleFactor="0.5"
+             processorId="OTT" parameterId="GainM" min="-12.0" max="12.0"
+             middlePosition="0.0"/>
+  <Component type="ScriptSlider" id="Knob10" x="128.0" y="270.0" filmstripImage="{PROJECT_FOLDER}bipolar_knob.png"
+             numStrips="127.0" width="22.0" height="22.0" scaleFactor="0.5"
+             processorId="OTT" parameterId="GainH" min="-12.0" max="12.0"
+             middlePosition="0.0"/>
+  <Component type="ScriptSlider" id="Knob1" x="224.0" y="177.0" middlePosition="50.0"
+             stepSize="0.1000000014901161" max="100.0" suffix=" dB" mode="Decibel"
+             filmstripImage="{PROJECT_FOLDER}dial_indicator.png" numStrips="128.0"
+             scaleFactor="0.5" width="121.0" height="121.0"/>
+  <Component type="ScriptLabel" id="Label1" x="0.0" y="355.0" text="12" fontSize="108.0"
+             textColour="4278190080" itemColour2="1118481" width="380.0" height="110.0"
+             alignment="centredBottom" editable="0" fontStyle="Bold" fontName="Hyper Script"/>
+</ContentProperties>
